@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Psyche Test</string>
-    <string name="get_started_text">Psyche Screener</string>
+    <string name="app_name">Psyche-Screener</string>
+    <string name="get_started_text">Psyche-Screener</string>
 </resources>
