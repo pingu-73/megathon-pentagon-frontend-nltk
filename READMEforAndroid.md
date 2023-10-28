@@ -2,7 +2,7 @@
 - [x] App Logo
 - [x] UI interface
 - [x] Welcome Page, Registration Page
-- [ ] Firebase data fetch/push
+- [x] Push data to Realtime firebase
 - [ ] Questions
 - [ ] Score Calculation
 
