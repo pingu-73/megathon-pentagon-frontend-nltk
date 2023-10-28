@@ -21,19 +21,19 @@ class RegistrationActivity : AppCompatActivity() {
             val Name = binding?.etSinUpName?.text.toString()
             val Email = binding?.etSinUpEmail?.text.toString()
             val Linkedin = binding?.etSinUpLinkedIn?.text.toString()
-            val Instagram = binding?.etSinUpInstagram?.text.toString()
+            val Facebook = binding?.etSinUpFacebook?.text.toString()
             val Twitter = binding?.etSinUpTwitter?.text.toString()
 
 //            database = FirebaseDatabase.getInstance().getReference("Users")
             database = FirebaseDatabase.getInstance().reference.child("Users")
             val userKey = database.push().key //to be removed
 //            val User = User(Name,Email,Linkedin, Instagram, Twitter)
-            val user = User(Name, Email, Linkedin, Instagram, Twitter)
-            database.child(userKey!!).setValue(user).addOnSuccessListener{
+            val user = User(Name, Email, Linkedin, Facebook, Twitter)
+            database.child("current_user_app").setValue(user).addOnSuccessListener{
 //            database.child(Name).setValue(Email).addOnSuccessListener {
                 binding?.etSinUpName?.text?.clear()
                 binding?.etSinUpEmail?.text?.clear()
-                binding?.etSinUpInstagram?.text?.clear()
+                binding?.etSinUpFacebook?.text?.clear()
                 binding?.etSinUpLinkedIn?.text?.clear()
                 binding?.etSinUpTwitter?.text?.clear()
 
