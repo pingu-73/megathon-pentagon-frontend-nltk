@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PsycheTest" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:statusBarColor">@color/white</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
