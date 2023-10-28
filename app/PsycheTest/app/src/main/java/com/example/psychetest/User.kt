@@ -13,6 +13,6 @@ data class User(
     val name: String,
     val email: String,
     val linkedin: String,
-    val instagram: String,
+    val facebook: String,
     val twitter: String
 )
