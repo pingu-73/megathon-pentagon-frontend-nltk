@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "955289784683",
+    "firebase_url": "https://pentagon-megathon-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "pentagon-megathon",
+    "storage_bucket": "pentagon-megathon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955289784683:android:f59f5a6526cd0ffdd3bc2e",
+        "android_client_info": {
+          "package_name": "com.example.psychetest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANsokTaz25aKGQxccHKgqDk_RY0rK7X7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
