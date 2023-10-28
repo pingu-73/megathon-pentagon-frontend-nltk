@@ -1,2 +1,2 @@
 # Megathon-website
-Analyse Candidates personality/behaviour using social media analysis, pyschometric test and challenging puzzles.
+Analyse candidates personality/behaviour using social media analysis, psychometric tests and challenging puzzles.
