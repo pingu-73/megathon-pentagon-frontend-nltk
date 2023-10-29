@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".QuestionSix">
 
     <TextView
-        android:id="@+id/Question1"
+        android:id="@+id/Question6"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:gravity="center"
-        android:text="Question 1"
+        android:text="Question 6"
         android:textColor="@color/black"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -21,69 +21,69 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/S1"
+        android:id="@+id/L2"
         android:layout_width="0dp"
         android:layout_height="76dp"
         android:layout_marginTop="16dp"
         android:gravity="center"
-        android:text="You are late for a meeting. When you leave your house in a hurry, you…"
+        android:text="How often do you participate in Debates?"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/Question1" />
+        app:layout_constraintTop_toBottomOf="@id/Question6" />
 
     <Button
-        android:id="@+id/OptA1"
+        android:id="@+id/OptA6"
         android:layout_width="0dp"
         android:layout_height="77dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/button_bg"
-        android:text="Will be right on time – your keys and wallet are right where they are supposed to be."
+        android:text="Frequently, I like to hear other's opinions and discuss pros and cons."
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/S1" />
+        app:layout_constraintTop_toBottomOf="@id/L2" />
 
     <Button
-        android:id="@+id/OptB1"
+        android:id="@+id/OptB6"
         android:layout_width="0dp"
         android:layout_height="77dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/button_bg"
-        android:text="Need a few minutes to search for your keys and wallet – they never seem to be where you put them the night before!"
+        android:text=" Frequently, most people disagree with me and have to get into debates to get stuff done. "
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/OptA1" />
+        app:layout_constraintTop_toBottomOf="@id/OptA6" />
 
     <Button
-        android:id="@+id/OptC1"
+        android:id="@+id/OptC6"
         android:layout_width="0dp"
         android:layout_height="77dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/button_bg"
-        android:text="Always have a plan B just in case things don’t go well"
+        android:text=" Rarely, I just don't find myself in such situations "
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/OptB1" />
+        app:layout_constraintTop_toBottomOf="@id/OptB6" />
 
     <Button
-        android:id="@+id/OptD1"
+        android:id="@+id/OptD6"
         android:layout_width="0dp"
         android:layout_height="77dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/button_bg"
-        android:text="Ask help from friends as much as possible"
+        android:text="Rarely, its just a waste of time and most debaters are passive agressive anyways "
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/OptC1" />
+        app:layout_constraintTop_toBottomOf="@id/OptC6" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
