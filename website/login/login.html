@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Psyche-Screener</title>
+        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="../common.css">
+        <link rel="icon" type="image/x-icon" href="/images/pngegg.ico">
+        <script src="https://www.gstatic.com/firebasejs/10.5.2/firebase-app-compat.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/10.5.2/firebase-database-compat.js"></script>
+        <script>
+            const firebaseConfig = {
+                apiKey: "AIzaSyD0Ky_uXkK_L1f2yzZkOWNdv8fxPgHM3Ns",
+                authDomain: "pentagon-megathon.firebaseapp.com",
+                databaseURL: "https://pentagon-megathon-default-rtdb.asia-southeast1.firebasedatabase.app",
+                projectId: "pentagon-megathon",
+                storageBucket: "pentagon-megathon.appspot.com",
+                messagingSenderId: "955289784683",
+                appId: "1:955289784683:web:7baa57b9c2f460e9d3bc2e",
+                measurementId: "G-HV94Q941BF"
+            };
+
+            const app = firebase.initializeApp(firebaseConfig);
+            const db = firebase.database(app)
+            const userRef = db.ref("Users/current_user_web");
+            const oceanRef = db.ref("Oceans/current_user_web");
+        </script>
+        <script src="../script.js" defer></script>
+    </head>
+    <body>
+    <div class="divider">
+        <div class="left_side">
+            <div class="logo">
+                <img src="../images/pngegg.png" alt="" class="logo_img">
+            </div>
+            <div class="quote">Psyche-Screener</div>
+        </div>
+        
+        <div class="right_side">
+            <div class="login_container">
+                <div class="login_image">
+                    <img src="dude.jpeg" alt="" class="login_img">
+                </div>
+                <div class="login_text">
+                    Enter your info
+                </div>
+                <div class="details">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Email ID">
+                    <input type="text" placeholder="LinkedIn Username">
+                    <input type="text" placeholder="Facebook Username">
+                    <input type="text" placeholder="Twitter Username">
+                </div>
+                <div class="disclamer">Disclamer: We will scrape these social media profiles</div>
+                <button type="submit" onclick="startTest()" class="proceed_testing">
+                    PROCEED FOR TESTING
+                </button>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
