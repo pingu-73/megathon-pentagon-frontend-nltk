@@ -13,4 +13,4 @@ This app has a basic **puzzle based test**, which is used for personality classi
 other phases of this **virtual interview**, based on **social media analysis** is calculated.
 
 # Overview:
-While building this app we've used **Android Studio** platform in **Kotlin** language.
+While building this app we've used **Android Studio** platform in **Kotlin** language. User data and  **Firebase** 
