@@ -3,7 +3,7 @@
 - [x] UI interface
 - [x] Welcome Page, Registration Page
 - [x] Push data to Realtime firebase
-- [ ] Questions
+- [x] Questions
 - [ ] Score Calculation
 
 # Purpose:
