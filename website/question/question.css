@@ -1,0 +1,109 @@
+.logo_container {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    display: flex;
+}
+
+.logo_img {
+    width: 7.5%;
+}
+
+.service_name {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    margin-left: 2%;
+    font-family: "Roboto Bold";
+    font-size: 3rem;
+}
+
+.container {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10%;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.question_img_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.question_img_div > * {
+    width: 50%;
+}
+
+.question_container {
+    display: flex;
+    justify-content: center;
+}
+
+.question_container * {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto Bold";
+    font-size: 2.25rem;
+}
+
+
+.question_number {
+    margin-left: 5%;
+}
+
+.question_text {
+    max-width: 75vw;
+}
+
+.question_container > * {
+    box-sizing: border-box;
+    margin: 0 0.75rem;
+}
+
+.option_container {
+    margin-top: 2%;
+    box-sizing: border-box;
+    display: grid;
+    width: 80vw;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20%;
+    column-gap: 2%;
+    grid-template-columns: 1fr 1fr;
+    height: 7rem;
+}
+
+.option {
+    letter-spacing: 0.05rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    border: solid 0.15rem black;
+    border-radius: 0.35rem;
+    font-size: 2.0rem;
+    padding-left: 0.75rem;
+    transition-duration: 0.3s;
+}
+
+.option:hover {
+    color: white;
+    background-color: black;
+}
+
+.next_question_btn { 
+    height: 3.75rem;
+    width: 30%;
+    background-color: black;
+    border-radius: 4rem;
+    font-family: "Roboto Regular";
+    font-size: 1.6rem;
+    color: white;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.next_question_btn:hover {
+    transform: scale(1.1);
+}

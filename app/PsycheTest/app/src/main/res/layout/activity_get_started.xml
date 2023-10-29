@@ -21,14 +21,31 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
+        android:id="@+id/imageView2"
         android:layout_width="300dp"
         android:layout_height="250dp"
+        android:contentDescription="image"
         android:src="@drawable/logo"
         app:layout_constraintBottom_toTopOf="@+id/cvGetStarted"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        android:contentDescription="image" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    <TextView
+        android:id="@+id/disclaimer"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="@string/disclaimer"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        app:layout_constraintTop_toBottomOf="@+id/cvGetStarted"
+        tools:layout_editor_absoluteX="50dp"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:ignore="MissingConstraints" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cvGetStarted"
@@ -40,6 +57,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
+
 
         <LinearLayout
             android:layout_width="match_parent"

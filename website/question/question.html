@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psyche-Screener</title>
+    <link rel="stylesheet" href="../common.css">
+    <link rel="stylesheet" href="question.css">
+    <script src="https://www.gstatic.com/firebasejs/10.5.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.5.2/firebase-database-compat.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyD0Ky_uXkK_L1f2yzZkOWNdv8fxPgHM3Ns",
+            authDomain: "pentagon-megathon.firebaseapp.com",
+            databaseURL: "https://pentagon-megathon-default-rtdb.asia-southeast1.firebasedatabase.app",
+            projectId: "pentagon-megathon",
+            storageBucket: "pentagon-megathon.appspot.com",
+            messagingSenderId: "955289784683",
+            appId: "1:955289784683:web:7baa57b9c2f460e9d3bc2e",
+            measurementId: "G-HV94Q941BF"
+        };
+
+        const app = firebase.initializeApp(firebaseConfig);
+        const db = firebase.database(app)
+        const userRef = db.ref("Users/current_user_web");
+        const oceanRef = db.ref("Oceans/current_user_web");
+    </script>
+    <script src="../script.js" defer></script>
+</head>
+<body onload="initQuestions()">
+    <div class="logo_container">
+        <img src="../images/pngegg.png" alt="" class="logo_img">
+    <title>Psyche-Screener</title>
+        <div class="service_name">Psyche-Screener</div>
+    </div>
+    <div class="container">
+        <div class="question_img_div">
+            <!-- <img src="../images/puzzle2.png" alt=""> -->
+        </div>
+        <div class="question_container">
+            <div class="question_number">
+                1.
+            </div>
+            <div class="question_text">
+                Question
+            </div>
+        </div>
+
+        <div class="option_container">
+            <button class="option">A. Literally the wrong answer</button>
+            <button class="option">B. Literally the right answer</button>
+            <button class="option">C. Not relevant to the question</button>
+            <button class="option">D. Not relevant to the question</button>
+        </div>
+
+        <!-- <button type="submit" onclick="getNextQuestion()" class="next_question_btn">Submit</button> -->
+    </div>
+</body>
+</html>

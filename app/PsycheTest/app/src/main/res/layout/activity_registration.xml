@@ -104,7 +104,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:hint="LinkedIn Username"
+            android:hint="LinkedIn Link"
             android:textSize="@dimen/et_text_size"
             />
     </com.google.android.material.textfield.TextInputLayout>
@@ -131,7 +131,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:hint="Facebook Username"
+            android:hint="Facebook Link"
             android:textSize="@dimen/et_text_size"
             />
     </com.google.android.material.textfield.TextInputLayout>
@@ -158,7 +158,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:hint="Twitter Username"
+            android:hint="Twitter Link"
             android:textSize="@dimen/et_text_size"
             />
     </com.google.android.material.textfield.TextInputLayout>

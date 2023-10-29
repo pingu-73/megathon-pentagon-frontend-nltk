@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Psyche-Screener</string>
     <string name="get_started_text">Psyche-Screener</string>
+    <string name="disclaimer">Disclaimer: WE WILL SCRAP YOUR DATA</string>
 </resources>
