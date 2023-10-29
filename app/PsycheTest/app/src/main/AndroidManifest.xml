@@ -12,11 +12,29 @@
         android:theme="@style/Theme.PsycheTest"
         tools:targetApi="31">
         <activity
+            android:name=".LastPage"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionSix"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionFive"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionFour"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionThree"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionTwo"
+            android:exported="false" />
+        <activity
             android:name=".RegistrationActivity"
             android:exported="false" />
         <activity
             android:name=".GetStartedActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,8 +43,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

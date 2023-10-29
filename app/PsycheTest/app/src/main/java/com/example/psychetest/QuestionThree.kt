@@ -4,39 +4,37 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.psychetest.databinding.ActivityMainBinding
-import com.example.psychetest.databinding.ActivityRegistrationBinding
+import com.example.psychetest.databinding.ActivityQuestionThreeBinding
+import com.example.psychetest.databinding.ActivityQuestionTwoBinding
 
-class MainActivity : AppCompatActivity() {
-
-    private var binding: ActivityMainBinding? = null
+class QuestionThree : AppCompatActivity() {
+    private var binding: ActivityQuestionThreeBinding? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityMainBinding.inflate(layoutInflater)
-
+        binding = ActivityQuestionThreeBinding.inflate(layoutInflater)
         setContentView(binding?.root)
 
-        binding?.OptA1?.setOnClickListener {
+        binding?.OptA3?.setOnClickListener {
             navigateToQuestionTwo()
         }
 
-        binding?.OptB1?.setOnClickListener {
+        binding?.OptB3?.setOnClickListener {
             navigateToQuestionTwo()
         }
 
-        binding?.OptC1?.setOnClickListener {
+        binding?.OptC3?.setOnClickListener {
             navigateToQuestionTwo()
         }
 
-        binding?.OptD1?.setOnClickListener {
+        binding?.OptD3?.setOnClickListener {
             navigateToQuestionTwo()
         }
-
     }
 
     private fun navigateToQuestionTwo() {
-        startActivity(Intent(this, QuestionTwo::class.java))
+        startActivity(Intent(this, QuestionFour::class.java))
         finish()
     }
 }
