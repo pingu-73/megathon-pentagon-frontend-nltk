@@ -13,4 +13,4 @@ This app has a basic **puzzle based test**, which is used for personality classi
 other phases of this **virtual interview**, based on **social media analysis** is calculated.
 
 # Overview:
-While building this app we've used **Android Studio** platform in **Kotlin** language. User data and Psyche Test Details are sent to **Firebase database** where the user socil-media links are scraped and as per social-media scores and psychetest scores the role for the individual is selected for **suitable roles**. And the **result is than e-mailed** regarding further interview rounds.
+While building this app we've used **Android Studio** platform in **Kotlin** language. User data and Psyche Test Details are sent to **Firebase database** where the user socil-media links are scraped and as per social-media scores and psychetest scores the role for the individual is selected for **suitable roles**. And the **result is than e-mailed** regarding further interview rounds. The **google-servicrs.json** file containing **API has been hidden**, to use the app you need to add google-services.json file at **PsycheTest/app/src**.
