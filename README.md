@@ -9,7 +9,7 @@ Psyche-Screener is a tool that emulates an interview screening process, which ha
     - Pass 2: Social media check (NLTK)
 - Round 2: Personality test
     - ‘OCEAN’ mapper
-    - Sitation-based Interview
+    - Situation-based Interview
     - Puzzles
     - Lifestyle Choices
 
